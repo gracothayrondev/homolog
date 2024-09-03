@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe versao="4.00" Id="NFe25240824280034000145550010000740181552482707">
+            <ide>
+                <cUF>25</cUF>
+                <cNF>55248270</cNF>
+                <natOp>VENDA DE PRODUcaO DO ESTABELECIMENTO EM OPERAcaO COM PRODUTO</natOp>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>74018</nNF>
+                <dhEmi>2024-08-27T20:29:18-03:00</dhEmi>
+                <dhSaiEnt>2024-08-28T20:29:18-03:00</dhSaiEnt>
+                <tpNF>1</tpNF>
+                <idDest>1</idDest>
+                <cMunFG>2513703</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>6</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <indFinal>0</indFinal>
+                <indPres>1</indPres>
+                <procEmi>0</procEmi>
+                <verProc>NFeManager v.2.5.0.0</verProc>
+            </ide>
+            <emit>
+                <CNPJ>24280034000145</CNPJ>
+                <xNome>INGA AGROPECUARIA E MINERACAO LTDA</xNome>
+                <enderEmit>
+                    <xLgr>SIT MUMBABA DE PININCHOS</xLgr>
+                    <nro>SN</nro>
+                    <xBairro>ZONA RURAL</xBairro>
+                    <cMun>2513703</cMun>
+                    <xMun>SANTA RITA</xMun>
+                    <UF>PB</UF>
+                    <CEP>58310130</CEP>
+                    <fone>8332477919</fone>
+                </enderEmit>
+                <IE>160920736</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CNPJ>50432500000170</CNPJ>
+                <xNome>R DOS SANTOS COMERCIAL LTDA</xNome>
+                <enderDest>
+                    <xLgr>Rua Professora Leonor da Silva Coutinho</xLgr>
+                    <nro>203</nro>
+                    <xBairro>Mangabeira</xBairro>
+                    <cMun>2507507</cMun>
+                    <xMun>JOAO PESSOA</xMun>
+                    <UF>PB</UF>
+                    <CEP>58055480</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>BRASIL</xPais>
+                    <fone>8388310927</fone>
+                </enderDest>
+                <indIEDest>1</indIEDest>
+                <IE>164639233</IE>
+                <email>brittosgaseagua@gmail.com</email>
+            </dest>
+            <det nItem="1">
+                <prod>
+                    <cProd>8</cProd>
+                    <cEAN>SEM GTIN</cEAN>
+                    <xProd>AGUA MINERAL ITACOATIARA 20 LITROS</xProd>
+                    <NCM>22021000</NCM>
+                    <CEST>0300700</CEST>
+                    <CFOP>5401</CFOP>
+                    <uCom>UND</uCom>
+                    <qCom>700.0000</qCom>
+                    <vUnCom>2.0000000000</vUnCom>
+                    <vProd>1400.00</vProd>
+                    <cEANTrib>SEM GTIN</cEANTrib>
+                    <uTrib>UND</uTrib>
+                    <qTrib>700.0000</qTrib>
+                    <vUnTrib>2.0000000000</vUnTrib>
+                    <indTot>1</indTot>
+                </prod>
+                <imposto>
+                    <vTotTrib>0.00</vTotTrib>
+                    <ICMS>
+                        <ICMS00>
+                            <orig>0</orig>
+                            <CST>00</CST>
+                            <modBC>3</modBC>
+                            <vBC>1400.00</vBC>
+                            <pICMS>20.0000</pICMS>
+                            <vICMS>280.00</vICMS>
+                        </ICMS00>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>07</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>07</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>1400.00</vBC>
+                    <vICMS>280.00</vICMS>
+                    <vICMSDeson>0.00</vICMSDeson>
+                    <vFCP>0.00</vFCP>
+                    <vBCST>0.00</vBCST>
+                    <vST>315.00</vST>
+                    <vFCPST>0.00</vFCPST>
+                    <vFCPSTRet>0.00</vFCPSTRet>
+                    <qBCMono>0.00</qBCMono>
+                    <vICMSMono>0.00</vICMSMono>
+                    <qBCMonoReten>0.00</qBCMonoReten>
+                    <vICMSMonoReten>0.00</vICMSMonoReten>
+                    <qBCMonoRet>0.00</qBCMonoRet>
+                    <vICMSMonoRet>0.00</vICMSMonoRet>
+                    <vProd>1400.00</vProd>
+                    <vFrete>0.00</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vIPIDevol>0.00</vIPIDevol>
+                    <vPIS>0.00</vPIS>
+                    <vCOFINS>0.00</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>1715.00</vNF>
+                    <vTotTrib>0.00</vTotTrib>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>3</modFrete>
+                <transporta>
+                    <CNPJ>24280034000145</CNPJ>
+                    <xNome>INGA AGROPECUARIA E MINERACAO LTDA</xNome>
+                    <UF>PB</UF>
+                </transporta>
+                <veicTransp>
+                    <placa>OGD6914</placa>
+                </veicTransp>
+                <vol>
+                    <qVol>700</qVol>
+                    <pesoL>14490.000</pesoL>
+                    <pesoB>0.000</pesoB>
+                </vol>
+            </transp>
+            <pag>
+                <detPag>
+                    <tPag>01</tPag>
+                    <vPag>1400.00</vPag>
+                </detPag>
+            </pag>
+            <infRespTec>
+                <CNPJ>06220266000126</CNPJ>
+                <xContato>Renato Rodrigues</xContato>
+                <email>pesquisa@softcomtecnologia.com.br</email>
+                <fone>8331333600</fone>
+            </infRespTec>
+        </infNFe>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <Reference URI="#NFe25240824280034000145550010000740181552482706">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                    <DigestValue>QrxxJxnDbwK255H0VwzRl/s8RT4=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>
+                LC9/+T4DKJMt4BVdExBWdrj9uifnC08DXGw5J5C867sk/LmE1dcGj107sIAA+P2F0CGia1H2E3iFunOMWrMgAGzbtyVKad+fMyPwwNlQkWSie49OdBk5XppYMy1k0xaTAeOEnvqsmph83VV22de7H1qvV3hw7rdVGbHO1F37sijO/CfJhwvghXabdr3M2iKxqPGWLDDAaBxNNfqg0aBhtb/t2f4ATI+OW2MFvUHDZyVCV6a7zOsF8mLBIe8gJ9S9mL0LlUd4acwZWozzQoQBLJGOwytAnIpA6dHIYpn4zPqE7FJvTe1uJ8h+NfXQypK8KX8MH3T7yNUUKyfwuoszgA==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>
+                        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</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </NFe>
+    <protNFe versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>SVRS2407051632DR</verAplic>
+            <chNFe>25240824280034000145550010000740181552482706</chNFe>
+            <dhRecbto>2024-08-27T20:32:32-03:00</dhRecbto>
+            <nProt>225240017472244</nProt>
+            <digVal>QrxxJxnDbwK255H0VwzRl/s8RT4=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>
