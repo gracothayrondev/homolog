@@ -66,7 +66,7 @@
                     <xProd>AGUA MINERAL ITACOATIARA 20 LITROS</xProd>
                     <NCM>22021000</NCM>
                     <CEST>0300700</CEST>
-                    <CFOP>5401</CFOP>
+                    <CFOP>5102</CFOP>
                     <uCom>UND</uCom>
                     <qCom>700.0000</qCom>
                     <vUnCom>2.0000000000</vUnCom>
@@ -108,7 +108,7 @@
                     <vICMSDeson>0.00</vICMSDeson>
                     <vFCP>0.00</vFCP>
                     <vBCST>0.00</vBCST>
-                    <vST>315.00</vST>
+                    <vST>0.00</vST>
                     <vFCPST>0.00</vFCPST>
                     <vFCPSTRet>0.00</vFCPSTRet>
                     <qBCMono>0.00</qBCMono>
@@ -127,7 +127,7 @@
                     <vPIS>0.00</vPIS>
                     <vCOFINS>0.00</vCOFINS>
                     <vOutro>0.00</vOutro>
-                    <vNF>1715.00</vNF>
+                    <vNF>1400.00</vNF>
                     <vTotTrib>0.00</vTotTrib>
                 </ICMSTot>
             </total>

@@ -15,7 +15,9 @@
 3 - Prossegui com a segunda importação que alterou o CSOSN do produto para **900**
 4 - Efetuei o cancelamento da última importação e constatei que houve o comportamento esperado, o produto retornou para o CST **102**.
 
-#### Erros encontrados
+#### Histórico
 
 ###### 03/09/2024
-Verifiquei que na tabela produto_trib não ocorreu o regresso dos campos icms_csosn e icms_cst.
+Verifiquei que na tabela produto_trib não ocorreu a alteração dos campos icms_csosn e icms_cst.
+###### 04/09/2024
+Junto com Nielson, vimos que o método definirProdTrib não estava analisando as alterações do CST ou CSOSN para atualizar na tabela produto_trib. Após incluir essa verificação, todos os testes obtiveram sucesso!
