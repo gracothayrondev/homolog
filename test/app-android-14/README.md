@@ -106,6 +106,13 @@ Vi uma possível melhoria de UX/UI na tela de extrato quanto a atualização da 
 7. Esse último ponto também mostrou um outro problema:
     - Ao efetuar a alteração de empresa no APP, no TC Web deveria ser alterado também a empresa atual e isto não ocorre. Apenas do TC Web para o APP.
 
+## Multiorganização
+
+No login e logoff de usuário Multiorganização não verifiquei nenhum problema.
+
+---
+##### Resultado final do teste
+###### Erros encontrados: 2
 
 
 
