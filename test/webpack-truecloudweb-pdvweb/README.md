@@ -123,3 +123,71 @@ Fiz a utilização dos Filtros e também não obtive nenhum problema!
 
 Não encontrei nenhum comportamento inadequado nesta tela.<br>
 Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA MESCLAGEM CONTAS
+
+Consegui realizar todo os procedimentos nessa tela. 
+
+- Exclusão
+- Inclusão
+- Geração das contas
+- Reabertura da mesclagem
+- Cancelamento da mesclagem
+- Exportação da tabela
+
+Só não consegui realizar a busca. Sempre aparece o erro **NOT FOUND**, mas verifiquei que o erro ocorre também na outra versão do build.
+
+A tela apresentou apenas este problema na busca, todavia é um erro que ocorre na versão atual. Sendo assim, irei marcá-la como ERRO PARCIAL<br>
+
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA CLIENTES
+
+Assim como na [TELA DESPESAS E RECEITAS](#tela-despesas-e-receitas), essa tela também apresentou erros em sua busca avançada. Verifiquei na outra versão e não ocorre esse problema.
+
+As demais funcionalidades, inclusive a busca genérica não apresentou erros.
+
+A tela apresentou problema na busca avançada com seus filtros<br>
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+
+### TELA FORNECEDORES
+
+Os testes foram idênticos ao da [TELA DE CLIENTES](#tela-clientes), inclusive com o mesmo erro.
+
+A tela apresentou problema na busca avançada com seus filtros<br>
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+
+Foi verificado que, no CRUD do que se refere à Pessoa, existe problema na busca avançada. Sendo assim: **Clientes, Fornecedores, Funcionários, Transportadores e Vendedores** possuem o mesmo comportamento de erro.
+
+---
+### TELA TIPO DE PAGAMENTO
+
+A tela não abre na versão do Webpack. Me certifiquei de que a mesma consegue abrir normalmente na versão atual do sistema.
+
+Além de não abrir a tela, a **Visão Geral** do sistema perde seus atalhos e indicadores, exibindo apenas uma tela vazia.
+
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+---
+### TELA REMESSA BOLETOS
+
+Teve um comportamento parecido com a [TELA TIPO DE PAGAMENTO](#tela-tipo-de-pagamento). A tela nesse caso até abre, aparece o título, porém sua tabela com as funções de listagem e geração de nova remessa não é exibida.
+
+Verifiquei em outra versão e a tela abre normalmente.
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+---
+### TELA RETORNO BOLETOS
+
+Comportamento idêntico à [TELA REMESSA BOLETOS](#tela-remessa-boletos). Abre a tela, mas sem exibição de nenhuma ferramenta.
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
