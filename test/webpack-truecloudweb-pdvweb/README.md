@@ -9,7 +9,6 @@
 1.1 Busca avançada com marca, grupo, subgrupo e categoria 1. Tudo funcionou perfeitamente. <br>
 1.2 Efetuei as buscas marcando o checkbox _Exibir inativos_ e também ocorreu tudo normal. <br>
 1.3 Pesquisei também utilizando a função de exibição de estoque e também obtive sucesso. <br>
-
 2. Consegui adicionar foto e excluir foto no produto.
 
 Não encontrei nenhum comportamento inadequado nesta tela.<br>
