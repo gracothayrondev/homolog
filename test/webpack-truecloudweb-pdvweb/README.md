@@ -45,3 +45,81 @@ Resultado do teste: <span style="color:green;"><b> OK </b></span>
 Não encontrei nenhum comportamento inadequado nesta tela.<br>
 Resultado do teste: <span style="color:green;"><b> OK </b></span>
 
+---
+### TELA IMPORTAÇÃO
+
+1. Iniciei a importação através de um XML.  
+1.1 Verfiquei uma lentidão considerável ao tentar enviar o XML para iniciar a importação  
+2. Na aba **Produtos**, ao tentar detalhar grade observei que o modal não é aberto. A tela simplesmente fica mais opaca e o usuário é obrigado a recarregar a página para voltar a ter controle sob a tela.<br>
+2.1 Verfiquei também que o modal de seleção de produtos existentes (catálogo) funciona normal, ou seja, o problema não é referente ao componente do modal - ao que tudo indica.<br>
+3. Desconsiderando o problema do detalhamento da grade, consegui replicar normalmente os grupos nos itens<br>
+4. Na aba **Preço Venda**, apliquei margem de lucro para todos os itens e os checkbox's (Atualizar preço) foram marcados corretamente.<br>
+4.1 O botão na coluna Detalhes também está funcionando.<br>
+4.2 Verifiquei que a troca de Tabelas de Preço também está ocorrendo corretamente.<br>
+5. A aba **Pagamento** tudo está ok. Verifiquei a troca de vencimento da conta, a alteração da forma de pgto e até a geração de novas contas.<br>
+6. Ao finalizar a importação ocorreu a mensagem de que a importação estava demorando muito, porém logo após a mesma foi finalizada com sucesso!  
+
+
+A tela apresentou lentidão para abrir o XML e para finalizar a importação com 30 itens<br>
+A tela apresentou problema para abrir o modal de detalhamento de grade<br>
+
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+---
+### TELA MANIFESTO AVULSO
+
+1. Criei um novo registro de Manifesto Avulso
+1.1 Indiquei Veículo, Motorista, Transportador, Município de Carregamento e Estado de Destino sem nenhum problema
+2. Na aba **Documentos Fiscais** incluir uma nota sem nenhum problema.
+3. Prossegui com a emissão, deu erro apenas porque a chave que utilizei era muito antiga e a SEFAZ deu rejeição. A tela em si passou no meu teste
+
+Não encontrei nenhum comportamento inadequado nesta tela.<br>
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA DESPESAS E RECEITAS
+
+Testei todas as funcionalidades, exceto Geração de boletos, pois o meu ambiente de teste não estava configurado para tal função.
+
+Funcionalidades testadas:
+- Criação de novo registro
+    - Nessa criação testei também a funcionalidade de repetir a conta
+- Alteração do Cliente/Fornecedor em conta existente
+- Alteração da Conta de Movimentação em conta existente
+- Alteração da Categoria em conta existente
+- Alteração do valor em conta existente
+- Alteração de vencimento em conta existente
+- Baixa da conta
+    - Testei a baixa com a seleção de várias contas também
+- Estorno da conta
+    - Testei o estorno com a seleção de várias contas também
+- Cancelamento da conta
+    - Testei o cancelamento com a seleção de várias contas também
+- Busca genérica
+- Busca avançada
+    - Nessa busca avançada, percebi que os filtros não estão funcionando. Testei em outra Organização que está na versão sem o Webpack e está funcionando perfeitamente.
+
+A tela apresentou problema na busca avançada com seus filtros<br>
+
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+---
+### TELA EXTRATO FINANCEIRO
+
+Testei as funcionalidades dessa tela e não encontrei nenhum problema.
+
+- Consegui realizar todas as ações:
+    - Transferência entre contas
+    - Definição de saldo inicial
+    - Ajuste do saldo da conta
+    - Fechamento de período
+    - Consultar fechamentos
+
+Vi que a navegação entre **Conta / Banco** está ocorrendo sem nenhum problema, bem como a navegação entre as data também.
+
+Fiz a utilização dos Filtros e também não obtive nenhum problema!
+
+Não encontrei nenhum comportamento inadequado nesta tela.<br>
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
