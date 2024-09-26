@@ -5,8 +5,8 @@
 ---
 ### TELA PRODUTOS
 
-1. Testado as pesquisas (busca genérica e busca avançada)
-1.1 Busca avançada com marca, grupo, subgrupo e categoria 1. Tudo funcionou perfeitamente.
+1. Testado as pesquisas (busca genérica e busca avançada)<br>
+1.1 Busca avançada com marca, grupo, subgrupo e categoria 1. Tudo funcionou perfeitamente. <br>
 1.2 Efetuei as buscas marcando o checkbox _Exibir inativos_ e também ocorreu tudo normal.
 1.3 Pesquisei também utilizando a função de exibição de estoque e também obtive sucesso.
 
