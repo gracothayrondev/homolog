@@ -125,25 +125,6 @@ Não encontrei nenhum comportamento inadequado nesta tela.<br>
 Resultado do teste: <span style="color:green;"><b> OK </b></span>
 
 ---
-### TELA MESCLAGEM CONTAS
-
-Consegui realizar todo os procedimentos nessa tela. 
-
-- Exclusão
-- Inclusão
-- Geração das contas
-- Reabertura da mesclagem
-- Cancelamento da mesclagem
-- Exportação da tabela
-
-Só não consegui realizar a busca. Sempre aparece o erro **NOT FOUND**, mas verifiquei que o erro ocorre também na outra versão do build.
-
-A tela apresentou apenas este problema na busca, todavia é um erro que ocorre na versão atual. Sendo assim, irei marcá-la como ERRO PARCIAL<br>
-
-
-Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
-
----
 ### TELA CLIENTES
 
 Assim como na [TELA DESPESAS E RECEITAS](#tela-despesas-e-receitas), essa tela também apresentou erros em sua busca avançada. Verifiquei na outra versão e não ocorre esse problema.
@@ -191,3 +172,251 @@ Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
 Comportamento idêntico à [TELA REMESSA BOLETOS](#tela-remessa-boletos). Abre a tela, mas sem exibição de nenhuma ferramenta.
 
 Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+---
+### TELA CONDIÇÕES PGTO
+
+Mesmo problema que a [TELA TIPO DE PAGAMENTO](#tela-tipo-de-pagamento). Não abre a tela e deixa em branco a tela **Visão Geral**.
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+---
+### TELA CONTAS DE MOVIMENTAÇÃO
+
+A tela está abrindo normalmente, bem como sua busca genérica e inclusão.
+
+Não encontrei nenhum comportamento inadequado nesta tela.<br>
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA CATEGORIAS
+
+A tela está abrindo normalmente, bem como sua busca genérica e inclusão.
+
+Não encontrei nenhum comportamento inadequado nesta tela.<br>
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA CENTRO DE CUSTO
+
+Essa tela não apresentou nenhum comportamente inadequado. Consegui incluir um novo registro, pesquisar normalmente e até mesmo excluir um registro.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA FUNÇÃO
+
+Essa tela não apresentou nenhum comportamente inadequado. Consegui incluir um novo registro, pesquisar normalmente e até mesmo excluir um registro.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA PROFISSÃO
+
+Essa tela não apresentou nenhum comportamente inadequado. Consegui incluir um novo registro, pesquisar normalmente e até mesmo excluir um registro.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA DEPARTAMENTO
+
+Essa tela não apresentou nenhum comportamente inadequado. Consegui incluir um novo registro, pesquisar normalmente e até mesmo excluir um registro.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA EMPRESA
+
+A tela abre normalmente. Sua busca genérica funciona, mas sua busca avançada não.
+
+Testei na outra versão e a busca avançada funciona corretamente.
+
+Resultado do teste: <span style="color:red;"><b> ERRO </b></span>
+
+---
+### TELA VEÍCULOS
+
+Essa tela não apresentou nenhum comportamente inadequado. Consegui incluir um novo registro, pesquisar normalmente e até mesmo excluir um registro.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA DESCONTO CONDICIONAL
+
+Essa tela não apresentou nenhum problema em meus testes.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA CONFIGURAÇÃO DO SISTEMA
+
+Naveguei por todas as suas abas sem constatar nenhum problema.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA CARGA DE PRODUTOS NA BALANÇA
+
+Nessa tela tudo funcionou corretamente. O modal de catalógo de produtos ao clicar no botão **Inclusão Avançada**. 
+
+Consegui exportar o arquivo para a balança marcando alguns produtos.
+
+Tudo correto
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELAS CFOP, NCM E CEST
+
+Testei essas telas em conjunto já que são telas simples. Consegui consultar, incluir e até editar por essas telas
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELAS RELATÓRIOS PADRÃO
+
+A tela não apresentou nenhum comportamento inadequado.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA CONFIGURAÇÃO DE MULTIEMPRESA
+
+A tela não apresentou nenhum comportamento inadequado.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA INVENTÁRIO
+
+Apresentou o mesmo comportamento que [TELA TIPO DE PAGAMENTO](#tela-tipo-de-pagamento)
+
+Resultado do teste: <span style="color:green;"><b> ERRO </b></span>
+
+---
+### TELA CADASTRO DE PDV
+
+A tela não apresentou nenhum comportamento inadequado.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA GESTÃO DE DOCUMENTOS FISCAIS
+
+A tela não apresentou nenhum comportamento inadequado.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELA DOWNLOAD XML'S
+
+A tela não apresentou nenhum comportamento inadequado.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### TELAS LOCALIZAÇÃO ESTOQUE, GRUPOS, MARCAS, CATEGORIAS, UNIDADES, ATRIBUTOS GRADE, PERFIS DE GRADE E OPERAÇÕES DE ESTOQUE
+
+As telas não apresentaram nenhum comportamento inadequado.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+## TRUE ANALYTICS
+
+O TrueAnalytics funcionou perfeitamente. Abri alguns relatórios e não obtive nenhum resultado negativo.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+## ERROS PARCIAIS
+#### Serão informados nessa seção, os erros que já ocorrem no sistema e não têm relação com o Webpack, apenas para que fiquem também registrados para análise posterior
+
+##### Não foi analisado se esses erros são de Frontend ou Backend
+
+---
+### TELA REGRA TRIBUTÁRIA
+
+Essa tela abriu, porém sua busca genérica não funciona. Essa busca também não funciona na outra versão. Sendo assim, será marcada como ERRO PARCIAL.
+
+O restante das funcionalidades nessa tela não apresentaram erros. Consegui adicionar exceções e retirar normalmente.
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA USUÁRIOS
+
+Assim como outras tela, abriu normalmente mas a sua busca genérica não funcionou. Será marcada como ERRO PARCIAL pois o problema ocorre na versão anterior também.
+
+Sua demais funções estão funcionando!
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA TABELA DE PREÇOS
+
+A busca genérica não é suportada nessa tela. Erro: Método não suportado. Um erro que já ocorre no sistema.
+
+Todas as demais funcionalidades da tela funcionaram perfeitamente.
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA CRM MARKETING
+
+Encontrei um comportamento estranho nessa tela, mas percebi que ocorre também na outra versão.
+
+1. Selecionei os filtros de dados **UF** e **Cidade** e o filtro de venda **Sem vendas nos últimos** e consultei. 
+2. Após o sistema trazer minha pesquisa, naveguei até a aba **Mensagens Enviadas** e consultei sem usar nenhum filtro.
+3. Ao retornar para a aba **Para Clientes** notei que o filtro **Cidade** havia ficado em branco, porém ainda funciona como filtro para a pesquisa. É apenas a exibição que deixa de funcionar.
+
+Todas as demais funcionalidades funcionaram tranquilamente em meus testes.
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA PERFIL
+
+Essa tela está abrindo normalmente, porém sua busca genérica não funciona. Todavia, esse erro é apresentando também na outra versão. Sendo assim, irei marcar essa tela como ERRO PARCIAL.
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA ITENS SERVIÇO
+
+Essa tela está abrindo normalmente, porém sua busca genérica não funciona. Todavia, esse erro é apresentando também na outra versão. Sendo assim, irei marcar essa tela como ERRO PARCIAL.
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA GRUPO FORMA DE PAGAMENTO
+
+A tela não permite salvar. O erro ocorre em ambas versões.
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA BANCOS
+
+Essa tela está abrindo normalmente. Sua busca genérica funciona apenas pelo **nome** do banco. Pelo ID ou pelo número do banco o sistema retorna um erro. Todavia, esse erro é apresentando também na outra versão. Sendo assim, irei marcar essa tela como ERRO PARCIAL.
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
+
+---
+### TELA MESCLAGEM CONTAS
+
+Consegui realizar todo os procedimentos nessa tela. 
+
+- Exclusão
+- Inclusão
+- Geração das contas
+- Reabertura da mesclagem
+- Cancelamento da mesclagem
+- Exportação da tabela
+
+Só não consegui realizar a busca. Sempre aparece o erro **NOT FOUND**, mas verifiquei que o erro ocorre também na outra versão do build.
+
+A tela apresentou apenas este problema na busca, todavia é um erro que ocorre na versão atual. Sendo assim, irei marcá-la como ERRO PARCIAL<br>
+
+
+Resultado do teste: <span style="color:red;"><b> ERRO PARCIAL</b></span>
