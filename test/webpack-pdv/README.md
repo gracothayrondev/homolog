@@ -178,6 +178,41 @@ Foi realizado o teste de impressão da venda pela impressora EPSON TM-T20x e o u
 Resultado do teste: <span style="color:green;"><b> OK </b></span>
 
 ---
+## Novos testes unitários
+###### Adicionados no dia 30/09/2024
+
+Testar:
+
+* Abertura caixa
+* Ajustes tela de suprimento
+* Desc complementar / Complemento obrigatorio
+* Comprovante de suprimento
+
+### Abertura Caixa
+
+Testei a abertura de caixa utilizando a nova funcionalidade de suprimento com outros tipos de pagamento além do dinheiro. O caixa foi aberto utilizando **Dinheiro** e **PIX** como suprimentos iniciais. Tudo funcionou corretamente, inclusive a impressão do comprovante.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+### Ajustes tela de suprimento / Comprovante de suprimento
+
+Na aba **Suprimento** na tela **Operações Caixa**, efetuei a inclusão de um suprimento com a forma de pgto PIX.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+### Desc complementar / Complemento obrigatorio
+
+1. Marquei o produto como **true** no parâmetro **Complemento Obrigatório**.
+2. Sincronizei o PDV
+3. Iniciei a criação de uma nova venda
+4. Inclui o produto
+5. O sistema abriu o modal solicitando a digitação do complemento/descrição complementar do produto
+
+O produto só é adicionado na venda caso o usuário digite no mínimo 1 caracter no input.
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
 ## ERROS GERAIS
 
 #### Estarão inclusos nessa seção os erros que ocorrem tanto na versão do Webpack quanto na versão atual do sistema
