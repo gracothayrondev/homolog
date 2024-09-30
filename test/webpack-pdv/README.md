@@ -6,11 +6,11 @@
 2. Inclui alguns produtos
 2.1 Testei também a remoção e edição dos produtos
 3. Testei a impressão do orçamento (gerei o PDF)
-4. Reabri o orçamento pela tela **Pesquisar Venda**.
-4.1 Efetuei alterações nos produtos
-4.2 Inclui um observação
-4.3 Alterei o cliente
-4.4 testei novamente a impressão
+4. Reabri o orçamento pela tela **Pesquisar Venda**.<br>
+4.1 Efetuei alterações nos produtos<br>
+4.2 Inclui um observação<br>
+4.3 Alterei o cliente<br>
+4.4 testei novamente a impressão<br>
 5. Testei a abertura do modal de **Análise Lucro** e **Inf. Adic.**
 
 Todo esse fluxo ocorreu sem nenhum problema
@@ -45,11 +45,11 @@ Resultado do teste: <span style="color:green;"><b> OK </b></span>
 4. Fiz os mesmos testes que as demais telas. Inclui, editei e exclui produtos
 5. Testei a abertura do modal de **Análise Lucro** e **Inf. Adic.**
 6. Informei pagamento
-7. Tentei gerar um cupom em homologação
+7. Tentei gerar um cupom em homologação<br>
 7.1 Deu erro de duplicidade, então salvei o cupom e alterei a numeração do último cupom
-8. Reabri o orçamento salvo, encontrando-o pela tela **Pesquisar Venda**
-8.1 Cliquei em **Faturar**
-8.2 Selecionei **Novo Cupom**
+8. Reabri o orçamento salvo, encontrando-o pela tela **Pesquisar Venda**<br>
+8.1 Cliquei em **Faturar**<br>
+8.2 Selecionei **Novo Cupom**<br>
 8.3 Cliquei em **Registrar** o pagamento novamente para prosseguir com a emissão
 9. Emissão finalizada com sucesso
 
@@ -67,9 +67,9 @@ Resultado do teste: <span style="color:green;"><b> OK </b></span>
 5. Informei as formas de pagamento
 6. Prossegui com a emissão da NF-e
 6.1 Deu erro de duplicidade, então salvei a nota e alterei a numeração da último nota
-7. Reabri o orçamento salvo, encontrando-o pela tela **Pesquisar Venda**
-7.1 Cliquei em **Faturar**
-7.2 Selecionei **Nova NF-e**
+7. Reabri o orçamento salvo, encontrando-o pela tela **Pesquisar Venda**<br>
+7.1 Cliquei em **Faturar**<br>
+7.2 Selecionei **Nova NF-e**<br>
 7.3 Cliquei em **Registrar** o pagamento novamente para prosseguir com a emissão
 8. Emissão finalizada com sucesso
 
@@ -78,12 +78,12 @@ Resultado do teste: <span style="color:green;"><b> OK </b></span>
 ---
 ### Pesquisar Venda
 
-1. Testei a busca genérica
+1. Testei a busca genérica<br>
 1.1 Busquei pelo número do pedido e pelo número do cupom/nota
 2. Testei a busca avançada selecionando todos os filtros
-3. Selecionei o cupom fiscal gerado no [Novo Cupom](#novo-cupom) e solicitei a emissão da nota de cupom do mesmo clicando no botão **Ações**
+3. Selecionei o cupom fiscal gerado no [Novo Cupom](#novo-cupom) e solicitei a emissão da nota de cupom do mesmo clicando no botão **Ações**<br>
 3.1 A emissão da nota prosseguiu corretamente, no entanto, ao fechar o PDF gerado e retornar para o sistema, toda a tela fica em branco. Sendo necessário o cliente clicar em alguma outra tela na barra de ferramentas para retornar ao uso do sistema ou até mesmo induzir o cliente a reiniciar o PDV.
-4. Selecionei o orçamento e o pedido gerado no [Novo Orçamento](#novo-orçamento) e [Novo Pedido](#novo-pedido), respectivamente, e solicitei a mesclagem dos mesmos clicando no botão **Ações**
+4. Selecionei o orçamento e o pedido gerado no [Novo Orçamento](#novo-orçamento) e [Novo Pedido](#novo-pedido), respectivamente, e solicitei a mesclagem dos mesmos clicando no botão **Ações**<br>
 4.1 Na mesclagem ocorreu tudo normal, exceto pelo o erro que foi apontado [aqui](#erro-nos-valores-da-mesclagem)
 5. Solicitei a impressão do pedido direto por esta tela e funcionou corretamente <br>
 
@@ -118,7 +118,7 @@ Resultado do teste: <span style="color:green;"><b> OK </b></span>
 ### Cadastrar Cliente
 
 1. Iniciei a inclusão de um novo cliente
-2. Selecionei o mesmo como Pessoa Jurídica
+2. Selecionei o mesmo como Pessoa Jurídica<br>
 2.1 Testei a inserção automática dos dados com base no CNPJ
 
 
@@ -167,6 +167,13 @@ Resultado do teste: <span style="color:green;"><b> OK </b></span>
 ### Configurações
 
 Naveguei pela tela de configurações por todas as suas abas sem observar nenhum erro na tela
+
+Resultado do teste: <span style="color:green;"><b> OK </b></span>
+
+---
+### Impressão e TEF
+
+Foi realizado o teste de impressão da venda pela impressora EPSON TM-T20x e o uso do pinpad via DLL. Ambos os testes deram ok.
 
 Resultado do teste: <span style="color:green;"><b> OK </b></span>
 
